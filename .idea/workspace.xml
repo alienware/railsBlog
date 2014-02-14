@@ -4,7 +4,7 @@
     <list default="true" id="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" name="Default" comment="" />
     <ignored path="RailsBlog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392410872704" ignored="false" />
+    <file path="/Gemfile" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392411096326" ignored="false" />
     <file path="/database.yml" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392195666190" ignored="false" />
     <file path="/post_spec.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392204825613" ignored="false" />
     <file path="/routes.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392272170039" ignored="false" />
@@ -20,7 +20,7 @@
     <file path="/post.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392360471019" ignored="false" />
     <file path="/comment.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392382873193" ignored="false" />
     <file path="/application.js" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392409457180" ignored="false" />
-    <file path="/_form.html.erb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392402399344" ignored="false" />
+    <file path="/_form.html.erb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392411489925" ignored="false" />
     <file path="/posts_controller.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392399682984" ignored="false" />
     <file path="/_archive.html.erb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392410132390" ignored="false" />
     <file path="/rating.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392268917927" ignored="false" />
@@ -41,7 +41,7 @@
     <file path="/_post_listing.html.erb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392410264367" ignored="false" />
     <file path="/20140214121537_create_comments_users_join.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392380199226" ignored="false" />
     <file path="/20140214121838_add_user_id_to_comments.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392380339612" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392410596847" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392411463022" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,16 +137,16 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="550" selection-end="550" vertical-scroll-proportion="-15.172414">
+            <state line="25" column="47" selection-start="804" selection-end="804" vertical-scroll-proportion="-17.241379">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="62" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.54022986">
+            <state line="2" column="11" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,6 +161,15 @@
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#ul#0;n#li#0;n#ul#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#ul#0;n#li#0;n#ul#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="42" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5469679">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -200,7 +209,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -208,13 +216,14 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_posts_listing.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/posts/_archive.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post_listing.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -1049,23 +1058,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="171" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="50" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="77" selection-start="514" selection-end="589" vertical-scroll-proportion="-13.793103">
           <folding />
         </state>
       </provider>
@@ -1114,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="550" selection-end="550" vertical-scroll-proportion="-15.172414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="2" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.0">
@@ -1164,7 +1152,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="62" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.54022986">
+        <state line="2" column="11" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/railties-4.0.0/lib/rails/generators/rails/scaffold/templates/scaffold.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="348" selection-end="348" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="47" selection-start="804" selection-end="804" vertical-scroll-proportion="-17.241379">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5469679">
           <folding />
         </state>
       </provider>

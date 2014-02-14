@@ -23,7 +23,5 @@
 		<%= f.hidden_field :post_id, :value => post %>
 		<%= f.hidden_field :user_id, :value => (current_user.id if user_signed_in?) %>
 		<!--<textarea id="comment_content" placeholder="Enter text ..."></textarea>-->
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+		<button class="btn btn-warning btn-lg">Post</button>
 <% end %>
