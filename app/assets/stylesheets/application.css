@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require font-awesome
+ *= require twitter/bootstrap
+ *= require bootstrap-wysihtml5
+ *= require_tree .
+ */
+
+body {
+	/*background: url('/assets/blog-background.jpg') no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.column {
+	float: left;
+	margin-left: 5%;
+}
+
+.column:first-child {
+	margin-left: 0;
+}
+
+.column.three-fourth {
+	width: 70%;
+}
+
+.column.one-fourth {
+	width: 20%;
+}
+
+.blog-title
+{
+	position:relative;
+	animation:myfirst 5s;
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:20px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	0%   {top:0px;}
+	25%  {top:-20px;}
+	50%  {top:20px;}
+	75%  {top:-10px;}
+	100% {top:0px;}
+}
+
+.post-title {
+	display: inline-block;
+	color: black !important;
+}
+
+.post-details {
+	color: black !important;
+}
+
+.post-content {
+		background-color: #F4F4F4 !important;
+		color: #003057 !important;
+}
+
+.button_to {
+	padding-bottom: 10px;
+	display: inline;
+}
+
+.button_to div {
+	display: inline;
+}
+
+hr.style-seven {
+	height: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}
+
+hr.style-five {
+	border: 0;
+	height: 0; /* Firefox... */
+	box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+	content: "\00a0";  /* Prevent margin collapse */
+}
+
+.border {
+		border:1px dotted;
+		border-radius:5px;
+}
+
+textarea#comment_content, textarea#post_content {
+	width: 100% ;
+	max-height: 100px;
+}
+
+table {
+		width: 100% !important;
+}

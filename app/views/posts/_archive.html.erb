@@ -1,0 +1,16 @@
+<ul class="nav nav-list">
+	<% @months.each do |key, value| %>
+		<li class="nav-header" data-toggle="collapse" data-target="#<%= key.gsub(/[^0-9A-Za-z]/, '') %>">
+			<span>
+      	<i class="fa fa-plus-square-o"></i> <%= key + "(#{value.size.to_s})" %>
+      </span>
+			<ul class="nav nav-list collapse" id="<%= key.gsub(/[^0-9A-Za-z]/, '') %>">
+				<% value.each do |id| %>
+					<% post = Post.where(:id => id).first %>
+					<li><%= link_to post.title, post %></li>
+					<br/>
+				<% end %>
+			</ul>
+		</li>
+	<% end %>
+</ul>

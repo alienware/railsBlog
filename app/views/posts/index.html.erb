@@ -1,0 +1,46 @@
+<% content_for :title, "Welcome" %>
+<form class="border" id="post-search" class="navbar-form navbar-left" role="search" action="<%= root_url %>">
+		<!--<div class="form-group">-->
+			<%= text_field_tag :search, params[:search], :placeholder => 'Start typing to search ... ', :class => 'form-control', :onclick => 'postSearch();' %>
+		<!--</div>-->
+</form><br/>
+
+<% if user_signed_in? and current_user.author? %>
+<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#newPost" style="float: right"><i class="fa fa-plus-square-o"></i> Add a post!</button>
+<% end %>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="row">
+	<div id="post-listing"><%= render 'posts/posts_listing', :posts => @posts %></div>
+	<div class="column one-fourth well animation" style="float: right">
+		<h2>Blog's journel</h2>
+		<%= render 'posts/archive' %>
+	</div>
+</div>
+
+<br/>
+
+<div class="modal fade" id="newPost" tabindex="-1" role="dialog" aria-labelledby="newPostLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="newPostLabel">Let those ideas flow!</h4>
+			</div>
+			<div class="modal-body">
+				<%= render 'posts/form' %>
+			</div>
+			<!--<div class="modal-footer">-->
+				<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+				<!--<button type="button" class="btn btn-primary">Save changes</button>-->
+			<!--</div>-->
+		</div>
+	</div>
+</div>
+
+
+
+
