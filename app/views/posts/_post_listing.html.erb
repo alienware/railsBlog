@@ -26,45 +26,46 @@
 </tr>
 <tr>
 	<td align="center">
-		<br/><ul class="nav nav-list">
-		<li class="nav-header" data-toggle="collapse" data-target="#<%= post.id %>">
-			<span>
-      	<button class="btn btn-info btn-lg openCommentModal" role="button"><%= pluralize(post.comments.count, 'comment') %></button>
-      </span>
-			<ul class="nav nav-list collapse" id="<%= post.id %>">
-				<div id="<%= post.id %>">
-					<hr class="style-five"/>
-					<h3>Comments</h3>
-					<% post.comments.each do |comment| %>
+		<br/>
+		<ul class="nav nav-list">
+			<li class="nav-header" data-toggle="collapse" data-target="#<%= post.id %>">
+				<span>
+ 	     	<button class="btn btn-info btn-lg openCommentModal" role="button"><%= pluralize(post.comments.count, 'comment') %></button>
+ 		     </span>
+				<ul class="nav nav-list collapse" id="<%= post.id %>">
+					<div id="<%= post.id %>">
+						<hr class="style-five"/>
+						<h3>Comments</h3>
+						<% post.comments.each do |comment| %>
 							<div class="well">
 								<h4 class="comment-title"><%= comment.title %></h4>
 								<div><button disabled class="btn post-details">Posted by <%= comment.user.email %> on <%= post.created_at.strftime("%B %-d, %Y %l:%-M %P") %></button></div>
-								<h5 style="text-align: justify"><%= comment.content %></h5>
+									<h5 style="text-align: justify"><%= comment.content %></h5>
 								<% if user_signed_in? and current_user.authorized? comment %>
-										<%= button_to edit_comment_path(comment), :method => 'get', :class => 'btn btn-primary' do %>
-												<i class="fa fa-pencil-square-o"></i>
+									<%= button_to edit_comment_path(comment), :method => 'get', :class => 'btn btn-primary' do %>
+										<i class="fa fa-pencil-square-o"></i>
 										<% end %>
-										<%= button_to comment, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger' do %>
-												<i class="fa fa-trash-o"></i>
-										<% end %>
+									<%= button_to comment, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger' do %>
+											<i class="fa fa-trash-o"></i>
+									<% end %>
 								<% end %>
 							</div>
-					<% end %>
-					<div style="text-align: left">
-						<% if user_signed_in? %>
+						<% end %>
+						<div style="text-align: left">
+							<% if user_signed_in? %>
 								<div class="jumbotron">
 									Add your comments below:
 									<%= render 'comments/form', :post => post.id %>
 									<!--<button class="openCommentModal btn btn-success" data-toggle="modal" data-target="#newComment" data-id="<%= post.id %>">Post a comment!</button>-->
 								</div>
-						<% else %>
+							<% else %>
 								<%= button_to 'You must be logged in to post a comment!', '/users/sign_in', :method => 'get', :class => 'alert alert-danger' %>
-						<% end %>
+							<% end %>
+						</div>
 					</div>
-				</div>
-			</ul>
-		</li>
-	</ul>
+				</ul>
+			</li>
+		</ul>
 	</td>
 </tr>
 <tr>

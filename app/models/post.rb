@@ -18,4 +18,8 @@ class Post < ActiveRecord::Base
 			where(nil)
 		end
 	end
+
+	def rating
+		4
+	end
 end
