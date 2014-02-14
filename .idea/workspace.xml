@@ -4,7 +4,7 @@
     <list default="true" id="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" name="Default" comment="" />
     <ignored path="RailsBlog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392366036495" ignored="false" />
+    <file path="/Gemfile" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392410872704" ignored="false" />
     <file path="/database.yml" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392195666190" ignored="false" />
     <file path="/post_spec.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392204825613" ignored="false" />
     <file path="/routes.rb" changelist="a8439ab0-655a-4f0d-a3b0-5fa8a1d1b045" time="1392272170039" ignored="false" />
@@ -125,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="138" selection-start="550" selection-end="550" vertical-scroll-proportion="0.1871345">
+            <state line="8" column="138" selection-start="550" selection-end="550" vertical-scroll-proportion="-5.5172415">
               <folding />
             </state>
           </provider>
@@ -138,6 +138,15 @@
         <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="4" selection-start="550" selection-end="550" vertical-scroll-proportion="-15.172414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="62" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.54022986">
               <folding />
             </state>
           </provider>
@@ -190,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
@@ -206,6 +214,7 @@
         <option value="$PROJECT_DIR$/app/views/posts/_archive.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post_listing.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -1040,13 +1049,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="171" selection-end="205" vertical-scroll-proportion="0.0">
@@ -1155,7 +1157,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="138" selection-start="550" selection-end="550" vertical-scroll-proportion="0.1871345">
+        <state line="8" column="138" selection-start="550" selection-end="550" vertical-scroll-proportion="-5.5172415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="62" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.54022986">
           <folding />
         </state>
       </provider>
